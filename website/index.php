@@ -61,7 +61,7 @@
         $companions = mysqli_query($connection->connect(), $reset);
         ?>
         <form id="companion" action="index.php" method="POST">
-          <p>Welcome back! There have been <?php echo $new ?> new postings since you last checked with your companion.  <br>Click <a href=" <?php echo $link ?>">here</a> to see!</p>
+          <p>Welcome back! There have been <?php echo $new ?> new postings since you last checked with your companion.  <br>Click <a href=" <?php echo $link ?>" target="_blank">here</a> to see!</p>
           <input type="submit" value="BACK"><br>
         </form>
         <?php
